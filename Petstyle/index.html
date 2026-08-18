@@ -7,26 +7,58 @@
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-sans bg-gray-50">
+<body class="font-sans bg-gray-100">
 
   <!-- Header -->
   <header class="bg-white shadow p-4 flex justify-between items-center">
-    <h1 class="text-2xl font-bold text-pink-500">Pet&Style</h1>
+    <h1 class="text-2xl font-bold text-purple-500">Pet&Style</h1>
     <nav>
       <ul class="flex gap-4">
-        <li><a href="#produtos" class="text-gray-700">Produtos</a></li>
-        <li><a href="#depoimentos" class="text-gray-700">Depoimentos</a></li>
-        <li><a href="#contato" class="text-gray-700">Contato</a></li>
+        <li><a href="#produtos" class="text-purple-500">Produtos</a></li>
+        <li><a href="#depoimentos" class="text-purple-500">Depoimentos</a></li>
+        <li><a href="#contato" class="text-purple-500">Contato</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Hero -->
-  <section class="flex flex-col md:flex-row items-center justify-between p-8 bg-pink-100">
+  <section class="flex flex-col md:flex-row items-center justify-between p-8 bg-purple-100">
     <div>
       <h2 class="text-3xl font-bold mb-4">Estilo e conforto para seu pet!</h2>
-      <p class="mb-4">Produtos exclusivos para quem ama cuidar com estilo.</p>
-      <a href="#produtos" class="bg-pink-500 text-white px-4 py-2 rounded">Ver Produtos</a>
+      <p class="mb-4">Produtos exclusivos para quem ama seu animal de estimação.</p>
+      <a href="#produtos" class="bg-purple-500 text-white px-4 py-2 rounded">Ver Produtos</a>
     </div>
-    <img src="pexels-kateryna-babaieva-1423213-7516507.jpg" alt="Pet estiloso" class="w-full h-48 object-cover rounded-lg shadow-md" />
+    <img src="imagens/pexels-kateryna-babaieva-1423213-7516507.jpg" 
+     alt="Pet estiloso" 
+     class= "w-48 h-48 object-cover rounded-full shadow-md border-4 border-purple-500 mt-4 md:mt-0">
   </section>
+  <div class="text-center text-purple-500 text-2xl font-bold mt-8 mb-4">Nossos Produtos</div>
+  <!-- Produtos -->
+  <section id="produtos" class="grid grid-cols-1 md:grid-cols-3 gap-8 p-8">
+    <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+      <img src="imagens/pexels-guvo59-28965636.jpg" alt="Produto 1" class="w-full h-48 object-cover rounded mb-4">
+      <h3 class="text-xl font-bold mb-2">Coleira para Cachorro</h3>
+      <p class="mb-2">Machos e fêmeas.</p>
+      <span class="text-purple-500 font-bold"> A Partir de R$ 59,99</span>
+    </div>
+    <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+      <img src="imagens/pexels-saul-rivera-120059439-17605538.jpg" alt="Produto 2" class="w-full h-48 object-cover rounded mb-4">
+      <h3 class="text-xl font-bold mb-2">Shampoo para Pets</h3>
+      <p class="mb-2">Hidratação e limpeza para seu amigo de quatro patas.</p>
+      <span class="text-purple-500 font-bold"> A Partir de R$ 89,99</span>
+    </div>
+    <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+      <img src="imagens/pexels-andreas-ebner-246992646-36513190.jpg" alt="Produto 3" class="w-full h-48 object-cover rounded mb-4">
+      <h3 class="text-xl font-bold mb-2">Caminhas Para Pets</h3>
+      <p class="mb-2">Caminhas confortáveis para o seu pet.</p>
+      <span class="text-purple-500 font-bold"> A Partir de R$ 97,99</span>
+    </div>
+    <div class="bg-white p-4 rounded shadow hover:shadow-lg transition">
+      <img src="imagens/pexels-gryziu-31703669.jpg" alt="Produto 3" class="w-full h-48 object-cover rounded mb-4">
+      <h3 class="text-xl font-bold mb-2">Brinquedos para Pets</h3>
+      <p class="mb-2">Brinquedos divertidos e seguros para o seu amigo de quatro patas.</p>
+      <span class="text-purple-500 font-bold"> A Partir de R$ 29,99</span>
+    </div>
+
+  </section>
+
